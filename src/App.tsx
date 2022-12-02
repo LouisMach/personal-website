@@ -1,22 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          I write
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/louis-machiels/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          LinkedIn
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/LouisMach/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
         </a>
       </header>
     </div>
