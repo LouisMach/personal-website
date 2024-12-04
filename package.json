@@ -1,11 +1,13 @@
 {
-  "name": "my-project",
+  "name": "personal-website",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
+    "prebuild": "rimraf dist",
     "build": "parcel build"
   },
   "devDependencies": {
-    "parcel": "^2.13.2"
+    "parcel": "^2.13.2",
+    "rimraf": "^6.0.1"
   }
 }
