@@ -1,13 +1,18 @@
 {
-  "name": "personal-website",
-  "source": "src/index.html",
-  "scripts": {
-    "start": "parcel",
-    "prebuild": "rimraf dist",
-    "build": "parcel build"
-  },
-  "devDependencies": {
-    "parcel": "^2.13.2",
-    "rimraf": "^6.0.1"
-  }
+    "name": "personal-website",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "prebuild": "rimraf dist",
+        "build": "parcel build"
+    },
+    "devDependencies": {
+        "@types/big.js": "^6.2.2",
+        "parcel": "^2.13.2",
+        "rimraf": "^6.0.1"
+    },
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "dependencies": {
+        "big.js": "^6.2.2"
+    }
 }
